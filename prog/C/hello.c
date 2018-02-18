@@ -1,10 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Criando função hello
+void hello(void);
 
 int main(int argc, char **argv)
 {
-    printf("Hello World!!\n");
+    hello();
 }
+
+void hello(void)
+{
+    printf("Aplicando função hello\n");
+}
+
 
 
